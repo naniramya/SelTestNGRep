@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.naukri.scripts.Naukri_ExpPage_Script_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="enterEmailId"/>
+          <include name="afterTest"/>
+          <include name="enterName"/>
+        </methods>
+      </class> <!-- com.naukri.scripts.Naukri_ExpPage_Script_001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

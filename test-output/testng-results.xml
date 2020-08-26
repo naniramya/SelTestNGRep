@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31038" started-at="2020-08-27T00:09:37 IST" finished-at="2020-08-27T00:10:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31038" started-at="2020-08-27T00:09:37 IST" finished-at="2020-08-27T00:10:08 IST">
+      <class name="com.naukri.scripts.Naukri_ExpPage_Script_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.naukri.scripts.Naukri_ExpPage_Script_001@7494e528]" name="setUp" is-config="true" duration-ms="11118" started-at="2020-08-27T00:09:37 IST" finished-at="2020-08-27T00:09:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:com.naukri.scripts.Naukri_ExpPage_Script_001@7494e528]" name="openBrowser" duration-ms="15349" started-at="2020-08-27T00:09:48 IST" finished-at="2020-08-27T00:10:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyPage()[pri:2, instance:com.naukri.scripts.Naukri_ExpPage_Script_001@7494e528]" name="verifyPage" duration-ms="3349" started-at="2020-08-27T00:10:03 IST" finished-at="2020-08-27T00:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="enterName()[pri:3, instance:com.naukri.scripts.Naukri_ExpPage_Script_001@7494e528]" name="enterName" duration-ms="465" started-at="2020-08-27T00:10:07 IST" finished-at="2020-08-27T00:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterName -->
+        <test-method status="PASS" signature="enterEmailId()[pri:4, instance:com.naukri.scripts.Naukri_ExpPage_Script_001@7494e528]" name="enterEmailId" duration-ms="370" started-at="2020-08-27T00:10:07 IST" finished-at="2020-08-27T00:10:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailId -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.naukri.scripts.Naukri_ExpPage_Script_001@7494e528]" name="afterTest" is-config="true" duration-ms="185" started-at="2020-08-27T00:10:07 IST" finished-at="2020-08-27T00:10:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.naukri.scripts.Naukri_ExpPage_Script_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
