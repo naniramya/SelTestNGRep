@@ -33,6 +33,9 @@ public class NaukriExpBasicDetailsPage {
 	@FindBy(id = "email")
 	WebElement emailId;
 
+	@FindBy(name="password")
+	WebElement createPassword;
+	
 	public NaukriExpBasicDetailsPage(WebDriver driver, Connection con) {
 		this.driver = driver;
 		this.con = con;
@@ -81,6 +84,15 @@ public class NaukriExpBasicDetailsPage {
 		emailId.sendKeys(email);
 		LOGGER.info("email entered as :: " +email );
 	}
+	public void enterPassword() throws SQLException{
+		getTableData();
+		String pw = rs.getString("Password");
+		System.out.println("password is.." + pw);
+		LOGGER.info("password is ::::" + pw);
+		createPassword.sendKeys(pw);
+		LOGGER.info("password entered as :: " +pw );
+	}	
+	
 	/*
 	 * public void enterName() throws SQLException, ClassNotFoundException { 
 	 * String name = null; 
@@ -91,7 +103,8 @@ public class NaukriExpBasicDetailsPage {
 	 *  name = rs.getString("name");
 	 * System.out.println("name is.." + name); 
 	 * } 
-	 * fName.sendKeys(name); }
+	 * fName.sendKeys(name); 
+	 * }
 	 * 
 	 * public void enterEmailId() throws SQLException, ClassNotFoundException {
 	 * String email = null; 

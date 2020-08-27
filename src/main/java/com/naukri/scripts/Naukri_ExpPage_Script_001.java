@@ -58,6 +58,12 @@ public class Naukri_ExpPage_Script_001 {
 		System.out.println("email Id entered...");
 		LOGGER.info("email Id entered--->>");
 	}
+	@Test(priority = 5)
+	public void enterCreatePassword() throws ClassNotFoundException, SQLException {
+		nb.enterPassword();
+		System.out.println("password entered...");
+		LOGGER.info("password entered--->>");
+	}
 
 	@AfterTest
 	public void afterTest() {
