@@ -67,7 +67,7 @@ public class Naukri_ExpPage_Script_001 {
 
 	@AfterTest
 	public void afterTest() {
-		nb.closeBrowser();
+		//nb.closeBrowser();
 	}
 
 }
